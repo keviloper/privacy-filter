@@ -1,0 +1,11 @@
+version: "3"
+
+tasks:
+  finetune:
+    desc: "Start fine-tuning the model"
+    cmd: >-
+      uv run opf train
+      'data/train/*.jsonl'
+      --label-space-json 'data/label_space.json'
+      --validation-split 0.10
+      --output-dir 'finetuned_model/'
