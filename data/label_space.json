@@ -1,0 +1,30 @@
+{
+  "category_version": "knowledgeai_custom_anonymizer_v1",
+  "span_class_names": [
+    "O",
+    "TITLE",
+    "PERSON_NAME",
+    "DATE_TIME",
+    "ADDRESS",
+    "PHONE_NUMBER",
+    "EMAIL_ADDRESS",
+    "GENDER",
+    "ORGANIZATION",
+    "LOCATION",
+    "ID_NUMBER",
+    "SOCIAL_SECURITY_NUMBER",
+    "VEHICLE_INFO",
+    "IBAN",
+    "FINANCIAL_ACCOUNT_NUMBER",
+    "FINANCIAL_AMOUNT",
+    "TAX_INFO",
+    "FINANCIAL_INFO",
+    "INSURANCE_INFO",
+    "IP_ADDRESS",
+    "URL",
+    "USER_NAME",
+    "PASSWORD",
+    "SECURITY_CREDENTIAL",
+    "MEDICAL_INFO"
+  ]
+}
